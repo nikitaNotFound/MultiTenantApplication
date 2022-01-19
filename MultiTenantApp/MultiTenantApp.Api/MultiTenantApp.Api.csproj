@@ -8,13 +8,15 @@
 
     <ItemGroup>
         <PackageReference Include="MediatR" Version="10.0.1" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\ApplicationAuthentication" />
-      <Folder Include="Controllers\Authentication" />
-      <Folder Include="Controllers\Dashboard" />
+      <ProjectReference Include="..\MultiTenantApp.Application.Contracts\MultiTenantApp.Application.Contracts.csproj" />
+      <ProjectReference Include="..\MultiTenantApp.Application\MultiTenantApp.Application.csproj" />
+      <ProjectReference Include="..\MultiTenantApp.Domain.Contracts\MultiTenantApp.Domain.Contracts.csproj" />
+      <ProjectReference Include="..\MultiTenantApp.Domain\MultiTenantApp.Domain.csproj" />
     </ItemGroup>
 
 </Project>
