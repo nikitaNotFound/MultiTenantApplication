@@ -1,4 +1,7 @@
 using MediatR;
+using MultiTenantApp.Infrastructure.DependencyInjection;
+using MultiTenantApp.Infrastructure.Multitenancy;
+using MultiTenantApp.Repository.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddMediatR(typeof(Program));
+
+builder.Services.AddInfrastructure();
+builder.Services.AddRepositories();
 
 
 var app = builder.Build();
@@ -24,5 +30,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<CurrentTenantInitializerMiddleware>();
 
 app.Run();

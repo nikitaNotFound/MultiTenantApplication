@@ -1,8 +1,12 @@
-﻿using MultiTenantApp.Repository.Repositories.Contracts;
+﻿using MultiTenantApp.Infrastructure.Contracts;
+using MultiTenantApp.Infrastructure.Multitenancy;
 
 namespace MultiTenantApp.Repository.Repositories;
 
-public class AuthenticationRepository : IAuthenticationRepository
+public class AuthenticationRepository : BaseRepository<AuthenticationRepository>, IAuthenticationRepository
 {
-
+    public Task<bool> VerifyCredentialsAsync(string login, byte[] passwordHash)
+    {
+        throw new NotImplementedException();
+    }
 }

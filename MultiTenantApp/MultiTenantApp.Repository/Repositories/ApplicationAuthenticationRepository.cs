@@ -1,8 +1,7 @@
-﻿using MultiTenantApp.Repository.Repositories.Contracts;
+﻿using MultiTenantApp.Infrastructure.Contracts;
 
 namespace MultiTenantApp.Repository.Repositories;
 
-public class ApplicationAuthenticationRepository : IApplicationAuthenticationRepository
+public class ApplicationAuthenticationRepository : BaseRepository<ApplicationAuthenticationRepository>, IApplicationAuthenticationRepository
 {
-
 }

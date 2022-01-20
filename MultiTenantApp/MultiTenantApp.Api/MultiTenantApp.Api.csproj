@@ -17,6 +17,8 @@
       <ProjectReference Include="..\MultiTenantApp.Application\MultiTenantApp.Application.csproj" />
       <ProjectReference Include="..\MultiTenantApp.Domain.Contracts\MultiTenantApp.Domain.Contracts.csproj" />
       <ProjectReference Include="..\MultiTenantApp.Domain\MultiTenantApp.Domain.csproj" />
+      <ProjectReference Include="..\MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj" />
+      <ProjectReference Include="..\MultiTenantApp.Repository\MultiTenantApp.Repository.csproj" />
     </ItemGroup>
 
 </Project>

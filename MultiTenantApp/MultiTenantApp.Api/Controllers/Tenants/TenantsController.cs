@@ -8,6 +8,7 @@ namespace MultiTenantApp.Api.Controllers.Tenants;
 [Route("api/tenants")]
 public class TenantsController : BaseApiController
 {
+    [HttpPost]
     public Task<TenantDto> CreateTenantAsync(CreateTenantRequest request)
     {
         return Mediator.Send(request);

@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Api", "Multi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Repository", "MultiTenantApp.Repository\MultiTenantApp.Repository.csproj", "{EA911CC2-9B30-4723-B9FC-B3786460BD31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Infustructure", "MultiTenantApp.Infustructure\MultiTenantApp.Infustructure.csproj", "{286ADA04-EF63-48EA-890C-313CFF432EEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Infrastructure", "MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj", "{286ADA04-EF63-48EA-890C-313CFF432EEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Application", "MultiTenantApp.Application\MultiTenantApp.Application.csproj", "{17864A77-A151-4238-AE1C-3BB4F7B7C468}"
 EndProject

@@ -1,8 +1,8 @@
-﻿using MultiTenantApp.Repository.Repositories.Contracts;
+﻿using MultiTenantApp.Infrastructure.Contracts;
+using MultiTenantApp.Infrastructure.Multitenancy;
 
 namespace MultiTenantApp.Repository.Repositories;
 
-public class TenantRepository : ITenantRepository
+public class TenantRepository : BaseRepository<TenantRepository>, ITenantRepository
 {
-
 }
