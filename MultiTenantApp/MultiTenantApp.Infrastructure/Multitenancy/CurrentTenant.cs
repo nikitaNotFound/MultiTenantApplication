@@ -1,4 +1,4 @@
-﻿using MultiTenantApp.Application.Contracts;
+﻿using Portal.Domain;
 
 namespace MultiTenantApp.Infrastructure.Multitenancy;
 
