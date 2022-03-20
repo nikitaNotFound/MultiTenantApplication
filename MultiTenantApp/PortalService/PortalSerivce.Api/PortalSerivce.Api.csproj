@@ -13,7 +13,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj" />
-      <ProjectReference Include="..\MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj" />
       <ProjectReference Include="..\PortalService.Application\PortalService.Application.csproj" />
     </ItemGroup>
 

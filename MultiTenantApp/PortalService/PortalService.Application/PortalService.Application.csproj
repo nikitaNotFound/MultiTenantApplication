@@ -12,7 +12,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj" />
-      <ProjectReference Include="..\MultiTenantApp.Contracts\MultiTenantApp.Contracts.csproj" />
     </ItemGroup>
 
 </Project>
