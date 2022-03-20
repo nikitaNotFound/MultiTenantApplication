@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>PortalService.Infustructure</AssemblyName>
+        <RootNamespace>PortalService.Infustructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

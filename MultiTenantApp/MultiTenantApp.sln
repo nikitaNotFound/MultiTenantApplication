@@ -1,26 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Repository", "MultiTenantApp.Repository\MultiTenantApp.Repository.csproj", "{EA911CC2-9B30-4723-B9FC-B3786460BD31}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Infrastructure", "MultiTenantApp.Infrastructure\MultiTenantApp.Infrastructure.csproj", "{286ADA04-EF63-48EA-890C-313CFF432EEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Application", "Portal.Application\Portal.Application.csproj", "{17864A77-A151-4238-AE1C-3BB4F7B7C468}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalService.Application", "PortalService\PortalService.Application\PortalService.Application.csproj", "{17864A77-A151-4238-AE1C-3BB4F7B7C468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerApp.Application", "TaskTrackerApp.Application\TaskTrackerApp.Application.csproj", "{D7E22B7F-3AA1-4D9E-931E-8085BF24324C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerService.Application", "TaskTrackerService\TaskTrackerService.Application\TaskTrackerService.Application.csproj", "{D7E22B7F-3AA1-4D9E-931E-8085BF24324C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerApp.Domain", "TaskTrackerApp.Domain\TaskTrackerApp.Domain.csproj", "{1FBB56AD-5692-430D-BE9A-7D7CF9E8E48B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerService.Domain", "TaskTrackerService\TaskTrackerService.Domain\TaskTrackerService.Domain.csproj", "{1FBB56AD-5692-430D-BE9A-7D7CF9E8E48B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Domain", "Portal.Domain\Portal.Domain.csproj", "{CE0A9DA2-7F2E-4801-BFA8-A74C108927AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalService.Domain", "PortalService\PortalService.Domain\PortalService.Domain.csproj", "{CE0A9DA2-7F2E-4801-BFA8-A74C108927AC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portal", "Portal", "{99CD9DAC-B14A-4668-A82E-D6BCFAA0746B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortalService", "PortalService", "{99CD9DAC-B14A-4668-A82E-D6BCFAA0746B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskTrackerApp", "TaskTrackerApp", "{0258F6E1-6C5C-4C15-A932-7F769DD4D27F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskTrackerService", "TaskTrackerService", "{0258F6E1-6C5C-4C15-A932-7F769DD4D27F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantApp.Contracts", "MultiTenantApp.Contracts\MultiTenantApp.Contracts.csproj", "{7B6A700B-A0EE-4957-954A-C076F5B19A13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalSerivce.Api", "PortalService\PortalSerivce.Api\PortalSerivce.Api.csproj", "{32D0C0FF-7C96-4980-8745-9F38CCE33B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Api", "Portal.Api\Portal.Api.csproj", "{32D0C0FF-7C96-4980-8745-9F38CCE33B65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerService.Api", "TaskTrackerService\TaskTrackerService.Api\TaskTrackerService.Api.csproj", "{CD3D81EA-DA50-457D-A62B-C8F6917C96CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerApp.Api", "TaskTrackerApp.Api\TaskTrackerApp.Api.csproj", "{CD3D81EA-DA50-457D-A62B-C8F6917C96CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalService.Infustructure", "PortalService\PortalService.Infustructure\PortalService.Infustructure.csproj", "{A892D01C-A4B7-4155-ADCD-E40F0CF878CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackerService.Infustructure", "TaskTrackerService\TaskTrackerService.Infustructure\TaskTrackerService.Infustructure.csproj", "{634559A6-02A0-438E-80ED-187F9C4486D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA911CC2-9B30-4723-B9FC-B3786460BD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA911CC2-9B30-4723-B9FC-B3786460BD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA911CC2-9B30-4723-B9FC-B3786460BD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA911CC2-9B30-4723-B9FC-B3786460BD31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{286ADA04-EF63-48EA-890C-313CFF432EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{286ADA04-EF63-48EA-890C-313CFF432EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{286ADA04-EF63-48EA-890C-313CFF432EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,10 +48,6 @@ Global
 		{CE0A9DA2-7F2E-4801-BFA8-A74C108927AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0A9DA2-7F2E-4801-BFA8-A74C108927AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE0A9DA2-7F2E-4801-BFA8-A74C108927AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B6A700B-A0EE-4957-954A-C076F5B19A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B6A700B-A0EE-4957-954A-C076F5B19A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B6A700B-A0EE-4957-954A-C076F5B19A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B6A700B-A0EE-4957-954A-C076F5B19A13}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32D0C0FF-7C96-4980-8745-9F38CCE33B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32D0C0FF-7C96-4980-8745-9F38CCE33B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D0C0FF-7C96-4980-8745-9F38CCE33B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -64,6 +56,14 @@ Global
 		{CD3D81EA-DA50-457D-A62B-C8F6917C96CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3D81EA-DA50-457D-A62B-C8F6917C96CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3D81EA-DA50-457D-A62B-C8F6917C96CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A892D01C-A4B7-4155-ADCD-E40F0CF878CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A892D01C-A4B7-4155-ADCD-E40F0CF878CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A892D01C-A4B7-4155-ADCD-E40F0CF878CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A892D01C-A4B7-4155-ADCD-E40F0CF878CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634559A6-02A0-438E-80ED-187F9C4486D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634559A6-02A0-438E-80ED-187F9C4486D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634559A6-02A0-438E-80ED-187F9C4486D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634559A6-02A0-438E-80ED-187F9C4486D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17864A77-A151-4238-AE1C-3BB4F7B7C468} = {99CD9DAC-B14A-4668-A82E-D6BCFAA0746B}
@@ -72,5 +72,7 @@ Global
 		{D7E22B7F-3AA1-4D9E-931E-8085BF24324C} = {0258F6E1-6C5C-4C15-A932-7F769DD4D27F}
 		{32D0C0FF-7C96-4980-8745-9F38CCE33B65} = {99CD9DAC-B14A-4668-A82E-D6BCFAA0746B}
 		{CD3D81EA-DA50-457D-A62B-C8F6917C96CC} = {0258F6E1-6C5C-4C15-A932-7F769DD4D27F}
+		{A892D01C-A4B7-4155-ADCD-E40F0CF878CB} = {99CD9DAC-B14A-4668-A82E-D6BCFAA0746B}
+		{634559A6-02A0-438E-80ED-187F9C4486D1} = {0258F6E1-6C5C-4C15-A932-7F769DD4D27F}
 	EndGlobalSection
 EndGlobal
